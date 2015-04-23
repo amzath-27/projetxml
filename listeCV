@@ -1,0 +1,70 @@
+package controller;
+import javax.xml.bind.annotation.XmlRootElement;
+import java.util.ArrayList;
+
+@XmlRootElement(name = "liste")
+public class Listecv {
+
+    private ArrayList<Curriculum> cvList;
+
+    public ArrayList<Curriculum> getCvList() {
+        return cvList;
+    }
+
+    public void setCvList(ArrayList<Curriculum> cvList) {
+        this.cvList = cvList;
+    }
+
+    public void add(Curriculum nouveauCV){
+
+        this.cvList.add(nouveauCV);
+    }
+
+    public Curriculum getId(Integer i){
+
+        return cvList.get(i);
+    }
+
+    public Listecv() {
+        cvList = new ArrayList<Curriculum>();
+    }
+
+    public Listecv(ArrayList<Curriculum> cvList) {
+        this.cvList = cvList;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
