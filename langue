@@ -1,0 +1,22 @@
+package controller;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name = "langue")
+public class langue {
+
+    private String langue;
+
+    public langue() {}
+
+    public langue(String Llang) {
+        this.langue = Llang;
+    }
+    public String getLangue() {
+        return langue;
+    }
+
+    public void setLangue(String Langue) {
+        this.langue = Langue;
+    }
+}
