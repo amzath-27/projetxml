@@ -3,6 +3,10 @@ package resume;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * Created by diopous on 20/04/15.
+ */
+
 @Controller
 @RequestMapping("/resume")
 public class XMLController {

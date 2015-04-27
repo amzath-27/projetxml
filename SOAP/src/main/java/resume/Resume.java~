@@ -4,6 +4,10 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
+/**
+ * Created by diopous on 20/04/15.
+ */
+
 @XmlRootElement(name = "resume")
 public class Resume {
 
